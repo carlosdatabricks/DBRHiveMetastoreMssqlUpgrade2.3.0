@@ -41,6 +41,7 @@ Please make sure to make a backup of your matastore, these scripts have not been
 ### Configure a DBR cluster
 You can create a new single node cluster to run the notebook, please add the following envrionemnt variables before executing the notebook:
 
+```
 HIVE_URL=jdbc:sqlserver://{yourDatabaseServerName}:1433;database={yourDatabaseName};user={yourUser};password={YourPassword};encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
 MSSQL_SERVER_NAME={yourDatabaseServerName}
 HIVE_USER={databaseUser}
@@ -50,6 +51,7 @@ TARGET_HADOOP_VERSION=2.7.2
 TARGET_HIVE_HOME=/opt/apache-hive-2.3.9-bin
 TARGET_HADOOP_HOME=/opt/hadoop-2.7.2
 SQLDB_DRIVER=com.microsoft.sqlserver.jdbc.SQLServerDriver
+```
 
 ## Databricks Clussters
 ### 10.x
