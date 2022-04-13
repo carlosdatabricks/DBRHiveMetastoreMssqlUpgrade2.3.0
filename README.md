@@ -4,7 +4,7 @@
     - [Configure a DBR cluster](#configure-a-dbr-cluster)
   - [Databricks Clussters](#databricks-clussters)
     - [10.x](#10x)
-    - [For DBR 9.x and 7.x use:](#for-dbr-9x-and-7x-use)
+    - [9.x and 7.x](#9x-and-7x)
 
 <!--Auxiliary Scripts to migrate a Databricks external Metastore from version 0.13 to 2.3.0 on Azure SQL-->
 
@@ -57,7 +57,7 @@ For DBR 10.x add the following Spark Configuration settings (besides the one to 
 spark.sql.hive.metastore.jars builtin
 spark.sql.hive.metastore.version 2.3.9
 ```
-### For DBR 9.x and 7.x use:
+### 9.x and 7.x
 ```
 spark.sql.hive.metastore.jars builtin
 spark.sql.hive.metastore.version 2.3.7
