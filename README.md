@@ -33,7 +33,7 @@ The folder mssql in this project has the generated files and the fixes.
 
 ## Upgrading the Hive Metastore
 
-In order to upgrade the Metastore we have included a Databricks notebook that will take of the process, will download the apache-hive distribution, get the SQL files in this repo and run the schematool in order to upgrade the schema.
+In order to upgrade the Metastore we have included a Databricks notebook (UpgradeMetastore013to239.html) that it will download the apache-hive distribution, get the SQL files in this repo and run the schematool in order to upgrade the schema.
 
 Please make sure to make a backup of your matastore, these scripts have not been fully tested, this worked for ourt test environment.
 
