@@ -5,7 +5,8 @@
   - [Databricks Clussters](#databricks-clussters)
     - [10.x](#10x)
     - [For DBR 9.x and 7.x use:](#for-dbr-9x-and-7x-use)
-Auxiliary Scripts to migrate a Databricks external Metastore from version 0.13 to 2.3.0 on Azure SQL
+
+<!--Auxiliary Scripts to migrate a Databricks external Metastore from version 0.13 to 2.3.0 on Azure SQL-->
 
 A few customers have configure an external Hive Metastore for their Databricks Workspaces and the schema used by default is from 0.13.0. Some customers would like to use Purview to scan the Metastore, and Purview doesn't support this version of the Hive Metastore.
 
